@@ -127,6 +127,7 @@ module CodeChallenge
       end
     end
 
+    # Alternatively use `loop do ...return ... end`
     def random_color
       color = "#%06x" % (rand * 0xffffff)
       while colors.include?(color)
