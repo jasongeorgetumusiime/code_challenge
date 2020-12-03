@@ -132,6 +132,7 @@ module CodeChallenge
       while colors.include?(color)
         color = "%06x" % (rand * 0xffffff)
       end
+      colors << color
       color
     end
   end
