@@ -37,7 +37,7 @@ Nunc quis elit quam. Sed aliquet, nibh ut sagittis egestas, lorem tortor laoreet
 neque dictum convallis in vitae mauris. Etiam varius augue vel mattis tempor. Curabitur mattis facilisis metus, tempus consectetur quam aliquam sed. Mauris velit orci, efficitur sit amet nisl in
 ```
 
-With the following highlists input:
+With the following `highlights` as input:
 
 ```
 highlights = [{
@@ -54,7 +54,7 @@ highlights = [{
   comment: 'Baz'
 }]
 ```
-HTML output is save in `output.html` that generates highlighted paragraphs with unique random colors.
+HTML output is saved in `output.html` that generates highlighted paragraphs with unique random colors.
 
 `HtmlMarker.new(data, highlights).to_html_doc` produces the following html page.
 
