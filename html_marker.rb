@@ -71,7 +71,6 @@ module CodeChallenge
     end
 
     def insert_mark(words, comment)
-      marked_segment = words.clone
       color = random_color
       marked_segment = words.map do |word|
         if starts_with_p?(word)
@@ -111,7 +110,7 @@ module CodeChallenge
     # - Could regular expressions produce a more readble solution?
     # - `insert_` methods do no scale well, Only work for p html tags!
     # - We use clone becase `insert` is desctructive which would produce a non
-    # functional interface
+    # functional interface or we could prepend `!` to the method definitions
     def insert_open_mark(word, tooltiptext, color)
       if starts_with_p?(word)
         word.clone.insert(3, OPEN_MARK % [color, tooltiptext])
