@@ -58,6 +58,10 @@ HTML output is save in `output.html` that generates highlighted paragraphs with 
 
 `HtmlMarker.new(data, highlights).to_html_doc` produces the following html page.
 
+![Sample output document](https://github.com/jasongeorgetumusiime/code_challenge/blob/main/outpu.html.png)
 
-
-
+Possible Improvements
+---------------------
+- Scale solution to cater for more than just `<p>` tags
+- Allow proper overlapping of highlights and color them uniquely
+- Find a better solution than hard coding indices when inserting highlighting marks
