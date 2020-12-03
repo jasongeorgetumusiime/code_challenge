@@ -1,6 +1,6 @@
 # code_challenge
 
-Ruby Code Challenge to [problem](https://gist.github.com/autonomous/56630836b491734211c440f16bcb53a9)
+Ruby code solution to code challenge [problem](https://gist.github.com/autonomous/56630836b491734211c440f16bcb53a9)
 
 ## Details
 
